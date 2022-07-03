@@ -1,0 +1,22 @@
+#grid-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.element {
+  flex: 1;
+}
+
+.element:hover {
+  background-color: aqua;
+}
+
+.hovered-on {
+  background-color: black;
+}
